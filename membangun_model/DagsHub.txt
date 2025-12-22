@@ -1,0 +1,15 @@
+Project: SMSML_Afridho_Tavadhu
+Repo Link : https://dagshub.com/vadhh/SMSML_Afridho_Tavadhu
+Remote Tracking URI: https://dagshub.com/vadhh/SMSML_Afridho_Tavadhu.mlflow
+
+Setup Instructions:
+1. Created repository on DagsHub.
+2. Initialized connection in Python using:
+   dagshub.init(repo_owner='vadhh', repo_name='SMSML_Afridho_Tavadhu', mlflow=True)
+
+Artifacts Logged:
+- MLflow Autolog: Model parameters, training metrics.
+- Custom Artifacts:
+  1. confusion_matrix.png (Heatmap of predictions)
+  2. feature_importance.png (Top 20 features driving churn)
+  3. classification_report.txt (Precision/Recall/F1)
