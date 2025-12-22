@@ -1,0 +1,5 @@
+Docker Hub Repository:
+https://hub.docker.com/r/vadhh/smsml-submission
+
+(This image serves the Telco Customer Churn model trained via GitHub Actions)
+
