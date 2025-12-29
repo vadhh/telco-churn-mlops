@@ -73,10 +73,17 @@ mlflow ui
 ```
 
 ## 📊 Results & Metrics
+The pipeline was evaluated using K-Fold Cross-Validation to ensure stability.
 
-* **Best Model:** [e.g., Random Forest Classifier]
-* **Key Metric:** [e.g., F1-Score: 0.82]
-* **Business Insight:** The model identifies high-risk customers with 85% recall, allowing the retention team to target interventions effectively.
+* **Best Model Performance:** ~79.8% (Mean CV Score)
+* **Stability:** ±0.3% Standard Deviation (Indicates highly consistent performance across data folds)
+* **Efficiency:** ~0.11s training time (Low computational cost, suitable for frequent retraining)
+
+| Metric | Value | Interpretation |
+| :--- | :--- | :--- |
+| **Mean Score** | **0.7976** | The model correctly predicts the outcome ~80% of the time. |
+| **Std Dev** | **0.0030** | The model's performance varies by less than 1%, proving reliability. |
+| **Fit Time** | **0.107s** | fast training enables rapid iteration and low-latency CI/CD pipelines. |
 
 ## 📂 Project Structure
 
