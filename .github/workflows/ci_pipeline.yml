@@ -33,7 +33,7 @@ jobs:
       - name: Preprocess Data
         run: |
           echo "Generating dataset..."
-          python src/preprocessing.py
+          python src/preprocessing.py --input data_raw/data_telco.csv --output data_processed
           # Verify it worked
           ls -R data_processed
 
